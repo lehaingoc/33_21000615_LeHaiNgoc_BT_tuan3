@@ -1,0 +1,176 @@
+body{
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.wrapper{
+    height: 100%;
+    width: 960px;
+    background-color: white;
+}
+
+header{
+    height: 150px;
+    width: 960px;
+    background-color: #294e79;
+    position: relative;
+}
+
+header img{
+    top: 20px;
+    left: 10px;
+    position: relative;
+}
+
+header h2{
+    top: 20px;
+    left: 120px;
+    position: absolute;
+    color: aliceblue;
+}
+
+header #frm{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+header #frm #txtS{
+    border: 1px solid gray;
+    padding: 2px;
+} 
+
+header #frm #btnS{
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: cadetblue;
+}
+
+nav {
+    position: absolute;
+    bottom: 3px;
+    right: 20px;
+}
+
+.menu li{
+    display: inline-table;
+    background-color: #576c85;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu li:hover {
+   background-color: #e673c3;
+}
+
+.menu li a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu li .sub_menu {
+    display: none;
+    background-color: #576c85;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+    left: 0px;
+    top: 51px;
+}
+
+.menu li:nth-child(4) {
+    position: relative;
+}
+
+.menu li .sub-menu:nth-child(1) {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 115px;
+}
+
+.menu li .sub-menu li:nth-child(3) {
+    position: absolute;
+    top: 106px;
+    left: 0px;
+    width: 115px;
+}
+
+#whynot {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: grey;
+    border-bottom: 1px dashed gray;
+}
+
+#nd1 {
+    width: 50%;
+    float: left;
+    margin: 10px 10px;
+}
+
+#nd1 p{
+    text-align: justify;
+    font-style: italic;
+    color: red;
+    text-shadow: 2px 2px 4px green;
+}
+#nd2 {
+    margin: -10px 50px 20px;
+    float: right;
+}
+#nd2 p {
+    margin: 13px 0px;
+}
+#nd2 #info {
+    margin: 10px 0;
+    padding: 10px;
+    color: grey;
+    border-bottom: 1px dashed gray;
+}
+tr {
+    margin: 10p;
+}
+article {
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+#Discount {
+    width: 95%;
+    height: 500px;
+    margin-top: 50px;
+    background-color: rgb(246 239 239);
+}
+#Discount h2{
+    color: gray;
+    border-bottom: 1px dashed gray;
+    margin: 0px 20px;
+    padding: 10px;
+}
+#rose{
+    width: 300px;
+    height: 130px;
+    margin: 18px;
+    padding: 5px;
+    margin-left: 20px;
+    border: 0.25px solid rgb(218 218 218);
+}
+#Discount a{
+    padding: 20px;
+    float: right;
+    color: blue;
+}
+#Discount p{
+    text-align: justify;
+    margin: 0px 10px;
+}
